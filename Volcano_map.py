@@ -2,11 +2,6 @@ import folium
 import pandas
 
 
-"""
-horror test
-"""
-
-
 data = pandas.read_csv("Volcanoes.txt")
 lat = list(data["LAT"])
 lon = list(data["LON"])
